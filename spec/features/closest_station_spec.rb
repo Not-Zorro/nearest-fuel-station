@@ -18,6 +18,6 @@ describe 'As a user visiting the root' do
     expect(page).to have_content('Access-Time: MO: Not Specified; TU: Not Specified; WE: Not Specified; TH: Not Specified; FR: Not Specified; SA: Not Specified; SU: Not Specified')
     expect(page).to have_content('Distance: 0.1 mi')
     expect(page).to have_content('Travel-Time: 1 min')
-    expect(page).to have_content('Head <b>southeast</b> on <b>17th St</b> toward <b>Larimer St</b>')
+    expect(page).to have_content('Head southeast on 17th St toward Larimer St')
   end
 end
