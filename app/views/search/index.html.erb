@@ -7,4 +7,4 @@
 <h4>Directions</h4>
 <p>Distance: <%= fuel_facade.directions.distance %></p>
 <p>Travel-Time: <%= fuel_facade.directions.travel_time %></p>
-<p><%= fuel_facade.directions.directions %></p>
+<p><%= sanitize(fuel_facade.directions.directions) %></p>
